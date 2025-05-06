@@ -10,7 +10,7 @@ import calendar
 from PIL import Image
 
 # ===================== [1] 경로 및 데이터 로딩 설정 =====================
-data_path = Path("data/monthly_words.json")
+data_path = Path("data/monthly_words(5).json")
 history_path = Path("history/history.json")
 history_path.parent.mkdir(parents=True, exist_ok=True)
 
